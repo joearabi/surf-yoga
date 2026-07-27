@@ -1,0 +1,14 @@
+<svg width="232" height="48" viewBox="0 0 232 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Tripadvisor</title>
+  <g transform="translate(2 5)">
+    <path d="M18 5.5c6.4 0 11.7 2.3 15.9 6.8l4.1-6.1 4.1 6.1C46.3 7.8 51.6 5.5 58 5.5" stroke="#34E0A1" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="18" cy="21" r="12.2" fill="#34E0A1"/>
+    <circle cx="58" cy="21" r="12.2" fill="#34E0A1"/>
+    <circle cx="18" cy="21" r="6.6" fill="#fff"/>
+    <circle cx="58" cy="21" r="6.6" fill="#fff"/>
+    <circle cx="18" cy="21" r="3.2" fill="#111"/>
+    <circle cx="58" cy="21" r="3.2" fill="#111"/>
+    <path d="M34.5 22.5L38 28l3.5-5.5" fill="#F95D5D"/>
+  </g>
+  <text x="80" y="31" fill="#111" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="-1.1">tripadvisor</text>
+</svg>
