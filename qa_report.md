@@ -20,8 +20,8 @@
 - The seven-night inclusions match the English live Bookinglayer product content.
 - Thursday’s yoga and rooftop-dinner exception is stated in the schedule, inclusions, and FAQ.
 - All guest-review copy is labeled as paraphrased.
-- Static currency prices are not published.
-- Four stay-length cards direct visitors to live Bookinglayer pricing.
+- The four stay-length cards show the official per-person shared-room starting prices: €413, €712, €1,021, and €1,434.
+- Pricing copy clearly identifies these as starting prices and directs visitors to Bookinglayer for date, room, and guest-specific totals.
 - No Surf Guiding offer or booking-link leakage was found.
 
 ## Link verification
@@ -74,4 +74,3 @@
 ## Constraint and final review note
 
 Validation was completed without Playwright, browser automation, or Git, as required. Static checks and HTTP smoke tests passed. A human visual review through the local HTTP preview remains recommended before production deployment, particularly for final crop preferences across device sizes.
-

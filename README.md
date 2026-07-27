@@ -37,11 +37,10 @@ https://bookings.thesurfhotelmorocco.com/en/product/surf-and-yoga
 
 ## Offer source of truth
 
-The live Bookinglayer product is authoritative for schedule, levels, inclusions, availability, and final pricing. The page intentionally does not publish static prices.
+The live Bookinglayer product is authoritative for schedule, levels, inclusions, availability, and final pricing. The stay-length cards display the published per-person shared-room starting prices from The Surf Hotel's official Surf & Yoga package page; Bookinglayer confirms the final total for the selected dates, room, and guest count.
 
 The seven-night offer includes surf coaching or guiding matched to level, supervised practice, and a 60-minute evening yoga session daily except Thursday.
 
 ## Main video
 
 The main yoga video uses a local poster and replaces it with a privacy-enhanced YouTube iframe after the visitor presses play. A direct YouTube link remains available as a fallback.
-

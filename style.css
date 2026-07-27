@@ -253,7 +253,6 @@ em{font-style:normal;color:var(--sun)}
 .badge{position:absolute;right:18px;top:18px;margin:0;padding:7px 10px;background:var(--sun);color:#fff;font-size:9px;text-transform:uppercase;letter-spacing:.14em}
 .duration{margin:0;font-family:var(--serif);font-size:31px;line-height:1}.surf-days{margin:7px 0 38px;color:var(--sea);font-size:11px;text-transform:uppercase;letter-spacing:.12em}
 .price{font-family:var(--serif);font-size:55px;line-height:1;margin-bottom:25px}.price small{display:block;font-family:var(--sans);font-size:10px;text-transform:uppercase;letter-spacing:.13em;color:rgba(16,47,70,.5)}
-.price--live{font-size:43px}
 .price-card>p:nth-last-of-type(1){color:rgba(16,47,70,.65)}
 .price-card>a{margin-top:auto;padding-top:18px;border-top:1px solid var(--line);display:flex;justify-content:space-between;font-size:12px;font-weight:600}
 .price-card>a:hover{color:var(--sun)}
@@ -271,7 +270,8 @@ details p{margin:0;padding:0 50px 25px 0;color:rgba(16,47,70,.68)}
 
 .booking-strip{position:relative;min-height:480px;color:#fff;display:flex;align-items:center;overflow:hidden}
 .booking-strip-image,.booking-strip-image img,.booking-strip-overlay{position:absolute;inset:0;width:100%;height:100%}
-.booking-strip-image img{object-fit:cover;object-position:center 24%}
+.booking-strip-image{background:url("assets/booking-surf-hotel-board.jpg") center top/cover no-repeat}
+.booking-strip-image img{object-fit:contain;object-position:center top;transform:scale(2.15);transform-origin:center top;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 16%,#000 84%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 16%,#000 84%,transparent 100%)}
 .booking-strip-overlay{background:linear-gradient(90deg,rgba(5,31,49,.9),rgba(5,31,49,.42))}
 .booking-strip-content{position:relative;z-index:2;width:100%;padding:80px var(--pad);display:flex;align-items:center;justify-content:space-between;gap:60px}
 .booking-strip-content h2{color:#fff;margin-bottom:20px}
@@ -332,6 +332,7 @@ details p{margin:0;padding:0 50px 25px 0;color:rgba(16,47,70,.68)}
 @media(max-width:640px){
   :root{--pad:20px}
   body{font-size:15px}
+  .booking-strip-image img{transform:scale(1.08);-webkit-mask-image:none;mask-image:none}
   .section{padding-top:84px;padding-bottom:84px}
   h2{font-size:44px}
   .brand{gap:8px}

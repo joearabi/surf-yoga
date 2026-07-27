@@ -20,7 +20,7 @@ Only offer-specific content changes:
 - Yoga-specific testimonials.
 - Video titles, thumbnails, links, and playback.
 - Booking destination and analytics offer identifier.
-- Pricing copy, without publishing static prices.
+- Published per-person shared-room starting prices, with final totals confirmed in Bookinglayer.
 
 The page should make the offer feel like one considered daily rhythm rather than a surf package with yoga added as an afterthought.
 
@@ -44,7 +44,7 @@ Help prospective guests understand the balance between coached or guided surfing
 - Surf and yoga receive balanced visual and editorial emphasis.
 - Every conversion CTA opens the Surf & Yoga Bookinglayer product.
 - No copy promises morning yoga or two yoga sessions per day.
-- No static price is shown; Bookinglayer remains the source of live pricing and room availability.
+- Published shared-room starting prices are shown accurately; Bookinglayer remains the source of final pricing and room availability.
 - The page remains visually indistinguishable from the established Surf Guiding design system except for content and imagery.
 
 ## 3. Source-of-truth hierarchy
@@ -68,7 +68,8 @@ If sources disagree, the English content returned by the live Bookinglayer produ
 - A seven-night stay includes seven breakfasts, six beach lunches, and six rooftop dinners.
 - The kitchen is closed Thursday.
 - Daily surf transport, surfboard use, wetsuit use, airport transfers, Wi-Fi, towels, and room cleaning are included.
-- Final pricing and room availability are live and date-dependent.
+- Published per-person shared-room starting prices are €413 for 4 nights, €712 for 7 nights, €1,021 for 10 nights, and €1,434 for 14 nights.
+- Final pricing and room availability remain date-, room-, and guest-dependent in Bookinglayer.
 
 ## 4. Non-goals and content guardrails
 
@@ -78,7 +79,7 @@ If sources disagree, the English content returned by the live Bookinglayer produ
 - Do not imply that yoga replaces surf instruction or that surfing is optional.
 - Do not promise sunrise yoga, twice-daily yoga, private yoga, meditation classes, massage, or excursions as included.
 - Do not promise a named surf spot or fixed daily schedule; surf timing and location depend on conditions.
-- Do not hardcode package prices.
+- Do not present a starting price as a guaranteed final total; identify the displayed amounts as per-person shared-room prices.
 - Do not name current instructors unless the user separately verifies the roster.
 - Do not hotlink page imagery in production; download and self-host approved assets.
 - Do not use unrelated stock imagery or AI-generated people.
@@ -473,40 +474,40 @@ Use paraphrased, yoga-specific guest feedback. Do not present paraphrases as dir
 
 ### 5.13 Stay-length cards
 
-Keep the existing four-card pricing layout, but remove all currency values and “From” labels.
+Keep the existing four-card pricing layout and show the official per-person shared-room starting price for each stay length.
 
 **Eyebrow:** `Choose your stay`
 
 **Heading:**  
 `Pick a length.`  
-`See the live price.`
+`See the price.`
 
 **Intro:**  
-`Your dates, room choice and number of guests determine the complete price. Bookinglayer shows the live total before you confirm.`
+`Starting prices are per person in a shared room. Your dates, room choice and number of guests determine the final total shown in Bookinglayer.`
 
 **Cards:**
 
 1. **4 nights**
    - Secondary label: `3 surf & yoga days`
-   - Price field replacement: `Live price`
+   - Price: `From €413`
    - Body: `A shorter introduction to coached surfing, supervised practice and evening recovery.`
-   - Link: `Check live price ↗`
+   - Link: `Check dates & rooms ↗`
 2. **7 nights**
    - Badge: `Most booked`
    - Secondary label: `6 surf & yoga days`
-   - Price field replacement: `Live price`
+   - Price: `From €712`
    - Body: `The complete weekly rhythm, with time to learn, repeat, recover and settle into the hotel.`
-   - Link: `Check live price ↗`
+   - Link: `Check dates & rooms ↗`
 3. **10 nights**
    - Secondary label: `9 surf & yoga days`
-   - Price field replacement: `Live price`
+   - Price: `From €1,021`
    - Body: `More water time, more recovery and more opportunity to adapt to changing conditions.`
-   - Link: `Check live price ↗`
+   - Link: `Check dates & rooms ↗`
 4. **14 nights**
    - Secondary label: `13 surf & yoga days`
-   - Price field replacement: `Live price`
+   - Price: `From €1,434`
    - Body: `Two weeks to build a deeper surf rhythm without rushing progress or recovery.`
-   - Link: `Check live price ↗`
+   - Link: `Check dates & rooms ↗`
 
 All card links use the primary booking URL and retain their duration analytics value.
 
@@ -731,7 +732,7 @@ The page must not depend on parent-directory files or the Surf Guiding project a
 - Every `assets/...` reference resolves to a packaged file.
 - No `../assets`, `../style`, or external production image references remain.
 - No Surf Guiding booking URL remains.
-- No hardcoded euro price remains in the stay-length section.
+- The four official per-person shared-room starting prices appear in the stay-length section.
 - Major HTML container pairs are balanced.
 - All four hero images, level tabs, stay tabs, testimonials, and FAQs are present.
 
@@ -781,4 +782,3 @@ The page must not depend on parent-directory files or the Surf Guiding project a
 - Prefer direct, minimal changes based on the existing Surf Guiding files.
 - Do not alter the standalone Surf Guiding project.
 - Do not create runtime project files until this PRD is reviewed and approved.
-
